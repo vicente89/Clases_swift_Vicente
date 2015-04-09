@@ -13,3 +13,5 @@ var valor1 = 1, valor2 = 2, valor3 = 3
 var entero:Int
 
 var primero, segundo, tercero:Int
+
+// Dale un espacio al tipo, ejemplo : Int
