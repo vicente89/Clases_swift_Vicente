@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E6D9953D1AD5766F00864985"
-               BuildableName = "tarea0"
-               BlueprintName = "tarea0"
-               ReferencedContainer = "container:tarea0.xcodeproj">
+               BlueprintIdentifier = "E6D995501AD57AB600864985"
+               BuildableName = "tarea1"
+               BlueprintName = "tarea1"
+               ReferencedContainer = "container:tarea1.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E6D9953D1AD5766F00864985"
-            BuildableName = "tarea0"
-            BlueprintName = "tarea0"
-            ReferencedContainer = "container:tarea0.xcodeproj">
+            BlueprintIdentifier = "E6D995501AD57AB600864985"
+            BuildableName = "tarea1"
+            BlueprintName = "tarea1"
+            ReferencedContainer = "container:tarea1.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,10 +52,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E6D9953D1AD5766F00864985"
-            BuildableName = "tarea0"
-            BlueprintName = "tarea0"
-            ReferencedContainer = "container:tarea0.xcodeproj">
+            BlueprintIdentifier = "E6D995501AD57AB600864985"
+            BuildableName = "tarea1"
+            BlueprintName = "tarea1"
+            ReferencedContainer = "container:tarea1.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -71,10 +71,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E6D9953D1AD5766F00864985"
-            BuildableName = "tarea0"
-            BlueprintName = "tarea0"
-            ReferencedContainer = "container:tarea0.xcodeproj">
+            BlueprintIdentifier = "E6D995501AD57AB600864985"
+            BuildableName = "tarea1"
+            BlueprintName = "tarea1"
+            ReferencedContainer = "container:tarea1.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

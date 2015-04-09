@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>tarea0.xcscheme</key>
+		<key>tarea1.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>E6D9953D1AD5766F00864985</key>
+		<key>E6D995501AD57AB600864985</key>
 		<dict>
 			<key>primary</key>
 			<true/>
