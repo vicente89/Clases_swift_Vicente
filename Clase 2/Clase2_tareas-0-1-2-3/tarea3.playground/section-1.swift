@@ -19,7 +19,8 @@ Tarea 3
 */
 
 
-var datos = (sexo: true, masculino: "hombre",femenino: "mujer",mayorEdad: 18)
+var datos = (sexo: true, masculino: "hombre",femenino: "mujer", mayorEdad: 18)
+// Espacea despues de las , "mujer",mayorEdad: 18)
 
 println(datos.1)
 
