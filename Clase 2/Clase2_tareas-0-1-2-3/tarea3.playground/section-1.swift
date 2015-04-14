@@ -35,3 +35,6 @@ println(datos.sexo)
 println(datos.masculino)
 println(datos.femenino)
 println(datos.mayorEdad)
+
+
+//Corregido, perfecto. Un 10...
