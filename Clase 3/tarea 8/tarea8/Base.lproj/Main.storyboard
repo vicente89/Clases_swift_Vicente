@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13F1077" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,23 +16,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FbZ-bp-fUe">
-                                <rect key="frame" x="279" y="289" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Correcto" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FbZ-bp-fUe">
+                                <rect key="frame" x="263" y="289" width="74" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="74" id="2eB-va-teB"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerY" secondItem="FbZ-bp-fUe" secondAttribute="centerY" id="23X-rx-FdZ"/>
-                            <constraint firstAttribute="centerY" secondItem="FbZ-bp-fUe" secondAttribute="centerY" constant="0.5" id="Ayh-7c-v24"/>
-                            <constraint firstAttribute="centerY" secondItem="FbZ-bp-fUe" secondAttribute="centerY" id="Chc-on-RHd"/>
-                            <constraint firstAttribute="centerX" secondItem="FbZ-bp-fUe" secondAttribute="centerX" id="Kpk-x1-vlH"/>
-                            <constraint firstAttribute="centerX" secondItem="FbZ-bp-fUe" secondAttribute="centerX" id="NN7-hV-s4p"/>
-                            <constraint firstAttribute="centerX" secondItem="FbZ-bp-fUe" secondAttribute="centerX" id="ZJg-Xe-Jci"/>
-                            <constraint firstAttribute="centerY" secondItem="FbZ-bp-fUe" secondAttribute="centerY" id="d6l-FT-Tac"/>
-                            <constraint firstAttribute="centerX" secondItem="FbZ-bp-fUe" secondAttribute="centerX" id="vxm-xd-Qcm"/>
+                            <constraint firstItem="FbZ-bp-fUe" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="269" id="Hkm-Fj-74u"/>
+                            <constraint firstItem="FbZ-bp-fUe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QwR-GJ-mBO"/>
                         </constraints>
                     </view>
                 </viewController>
