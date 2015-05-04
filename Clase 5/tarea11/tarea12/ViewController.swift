@@ -16,7 +16,21 @@ class ViewController: UIViewController {
     
     @IBAction func boton() {
         
-        cabecera.image = UIImage(named: "Aprobado.png")
+        
+        if(texto.text.toInt() >= 0 && texto.text.toInt() <= 10) {
+            
+            if(texto.text.toInt() < 5) {
+                
+                cabecera.image = UIImage(named: "Suspenso.png")
+            }
+            
+            else {
+            
+                cabecera.image = UIImage(named: "Aprobado.png")
+            }
+            
+        }
+        
     }
     
     

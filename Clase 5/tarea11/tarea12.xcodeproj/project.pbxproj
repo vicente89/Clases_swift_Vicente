@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E605FF701AF7EA8000710A0B /* Aprobado.png in Resources */ = {isa = PBXBuildFile; fileRef = E605FF6F1AF7EA8000710A0B /* Aprobado.png */; };
+		E605FF751AF7EA8900710A0B /* Blue-Background-HD.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E605FF711AF7EA8900710A0B /* Blue-Background-HD.jpg */; };
+		E605FF761AF7EA8900710A0B /* Glass-button.png in Resources */ = {isa = PBXBuildFile; fileRef = E605FF721AF7EA8900710A0B /* Glass-button.png */; };
+		E605FF771AF7EA8900710A0B /* Introduzca su nota.png in Resources */ = {isa = PBXBuildFile; fileRef = E605FF731AF7EA8900710A0B /* Introduzca su nota.png */; };
+		E605FF781AF7EA8900710A0B /* Suspenso.png in Resources */ = {isa = PBXBuildFile; fileRef = E605FF741AF7EA8900710A0B /* Suspenso.png */; };
 		E645110F1AF7AD2B00F64471 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E645110E1AF7AD2B00F64471 /* AppDelegate.swift */; };
 		E64511111AF7AD2B00F64471 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64511101AF7AD2B00F64471 /* ViewController.swift */; };
 		E64511141AF7AD2B00F64471 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E64511121AF7AD2B00F64471 /* Main.storyboard */; };
 		E64511161AF7AD2B00F64471 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E64511151AF7AD2B00F64471 /* Images.xcassets */; };
 		E64511191AF7AD2B00F64471 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E64511171AF7AD2B00F64471 /* LaunchScreen.xib */; };
 		E64511251AF7AD2C00F64471 /* tarea12Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64511241AF7AD2C00F64471 /* tarea12Tests.swift */; };
-		E645113D1AF7B28300F64471 /* Imageness in Resources */ = {isa = PBXBuildFile; fileRef = E645113C1AF7B28300F64471 /* Imageness */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E605FF6F1AF7EA8000710A0B /* Aprobado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Aprobado.png; path = Imagenes/Aprobado.png; sourceTree = "<group>"; };
+		E605FF711AF7EA8900710A0B /* Blue-Background-HD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Blue-Background-HD.jpg"; path = "Imagenes/Blue-Background-HD.jpg"; sourceTree = "<group>"; };
+		E605FF721AF7EA8900710A0B /* Glass-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Glass-button.png"; path = "Imagenes/Glass-button.png"; sourceTree = "<group>"; };
+		E605FF731AF7EA8900710A0B /* Introduzca su nota.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Introduzca su nota.png"; path = "Imagenes/Introduzca su nota.png"; sourceTree = "<group>"; };
+		E605FF741AF7EA8900710A0B /* Suspenso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Suspenso.png; path = Imagenes/Suspenso.png; sourceTree = "<group>"; };
 		E64511091AF7AD2B00F64471 /* tarea12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tarea12.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E645110D1AF7AD2B00F64471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E645110E1AF7AD2B00F64471 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,7 +46,6 @@
 		E645111E1AF7AD2C00F64471 /* tarea12Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tarea12Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E64511231AF7AD2C00F64471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E64511241AF7AD2C00F64471 /* tarea12Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tarea12Tests.swift; sourceTree = "<group>"; };
-		E645113C1AF7B28300F64471 /* Imageness */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Imageness; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +90,13 @@
 				E645110E1AF7AD2B00F64471 /* AppDelegate.swift */,
 				E64511101AF7AD2B00F64471 /* ViewController.swift */,
 				E64511121AF7AD2B00F64471 /* Main.storyboard */,
+				E605FF6F1AF7EA8000710A0B /* Aprobado.png */,
+				E605FF711AF7EA8900710A0B /* Blue-Background-HD.jpg */,
+				E605FF721AF7EA8900710A0B /* Glass-button.png */,
+				E605FF731AF7EA8900710A0B /* Introduzca su nota.png */,
+				E605FF741AF7EA8900710A0B /* Suspenso.png */,
 				E64511151AF7AD2B00F64471 /* Images.xcassets */,
 				E64511171AF7AD2B00F64471 /* LaunchScreen.xib */,
-				E645113C1AF7B28300F64471 /* Imageness */,
 				E645110C1AF7AD2B00F64471 /* Supporting Files */,
 			);
 			path = tarea12;
@@ -196,8 +208,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E64511141AF7AD2B00F64471 /* Main.storyboard in Resources */,
-				E645113D1AF7B28300F64471 /* Imageness in Resources */,
+				E605FF761AF7EA8900710A0B /* Glass-button.png in Resources */,
+				E605FF751AF7EA8900710A0B /* Blue-Background-HD.jpg in Resources */,
+				E605FF701AF7EA8000710A0B /* Aprobado.png in Resources */,
+				E605FF781AF7EA8900710A0B /* Suspenso.png in Resources */,
 				E64511191AF7AD2B00F64471 /* LaunchScreen.xib in Resources */,
+				E605FF771AF7EA8900710A0B /* Introduzca su nota.png in Resources */,
 				E64511161AF7AD2B00F64471 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
