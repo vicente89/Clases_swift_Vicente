@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  tarea11
+//  tarea12
 //
 //  Created by villeguillo on 4/5/15.
 //  Copyright (c) 2015 villeguillo. All rights reserved.
@@ -16,29 +16,11 @@ class ViewController: UIViewController {
     
     @IBAction func boton() {
         
-        if(texto.text.toInt() <= 0 && texto.text.toInt() >= 10) {
-            
-        
-            if(texto.text.toInt() < 5 ){
-            
-                cabecera.image = UIImage(named: "Suspenso.png")
-                //cabeera.suspenso
-            }
-            
-            else{
-            
-                cabecera.image = UIImage(named: "Aprovado.png")
-                //cabecera.aprobado
-            }
-        }
-    
-        else {
-    
-                cabecera.image = UIImage(named: "Introduzca su nota.png")
-        }
+        cabecera.image = UIImage(named: "Aprobado.png")
     }
     
-
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
