@@ -1,15 +1,15 @@
 //
-//  tarea12Tests.swift
-//  tarea12Tests
+//  tarea11Tests.swift
+//  tarea11Tests
 //
-//  Created by villeguillo on 4/5/15.
+//  Created by villeguillo on 5/5/15.
 //  Copyright (c) 2015 villeguillo. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class tarea12Tests: XCTestCase {
+class tarea11Tests: XCTestCase {
     
     override func setUp() {
         super.setUp()

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="tarea11" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Blue-Background-HD.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qWZ-cI-tmh">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Introduzca su nota.png" translatesAutoresizingMaskIntoConstraints="NO" id="ysL-zg-cxn">
+                                <rect key="frame" x="151" y="70" width="300" height="32"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="100" placeholderIntrinsicHeight="50" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O99-bd-ZGN">
+                                <rect key="frame" x="251" y="270" width="100" height="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="250" placeholderIntrinsicHeight="90" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aog-Yl-BwA">
+                                <rect key="frame" x="175" y="471" width="250" height="90"/>
+                                <state key="normal" image="Glass-button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="boton" destination="BYZ-38-t0r" eventType="touchUpInside" id="DCD-gd-YGG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Aog-Yl-BwA" secondAttribute="bottom" constant="39" id="8gi-gn-abp"/>
+                            <constraint firstAttribute="centerX" secondItem="ysL-zg-cxn" secondAttribute="centerX" constant="-0.5" id="BKF-OF-oFP"/>
+                            <constraint firstAttribute="centerY" secondItem="O99-bd-ZGN" secondAttribute="centerY" constant="5" id="PmF-hW-1ul"/>
+                            <constraint firstAttribute="centerX" secondItem="O99-bd-ZGN" secondAttribute="centerX" constant="-0.5" id="Pwa-6h-KWl"/>
+                            <constraint firstItem="ysL-zg-cxn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="QoQ-Qv-pdR"/>
+                            <constraint firstAttribute="centerX" secondItem="Aog-Yl-BwA" secondAttribute="centerX" id="SNj-kG-4kj"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cabecera" destination="ysL-zg-cxn" id="XuD-ic-eWi"/>
+                        <outlet property="texto" destination="O99-bd-ZGN" id="q7H-eb-ZM8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="298" y="316"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Blue-Background-HD.jpg" width="600" height="800"/>
+        <image name="Glass-button.png" width="400" height="165"/>
+        <image name="Introduzca su nota.png" width="300" height="32"/>
+    </resources>
+</document>
