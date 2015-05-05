@@ -2,6 +2,8 @@
 
 import UIKit
 
+// Clase 4
+
 /*  Tarea 0
 
 Recorre con un for in los elementos de un rango cerrado entre 1 y 10.

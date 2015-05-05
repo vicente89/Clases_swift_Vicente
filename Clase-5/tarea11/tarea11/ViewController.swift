@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var texto: UITextField!
     
     
+    
     @IBAction func boton() {
         
         if (texto.text.toInt() >= 0 && texto.text.toInt() <= 10) {
@@ -22,17 +23,18 @@ class ViewController: UIViewController {
                 
                 cabecera.image = UIImage(named: "Aprobado.png")
             }
-            
+                
             else {
                 
                 cabecera.image = UIImage(named: "Suspenso")
             }
         }
-        
+            
         else {
             
             cabecera.image = UIImage(named: "Introduzca su nota.png")
         }
+        
     }
     
     
