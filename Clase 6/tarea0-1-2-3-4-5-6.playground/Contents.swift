@@ -20,7 +20,7 @@ Ejemplo … 3 : “tres”
 
 */
 
-let miString = "nunca"
+let miString = "El nunca"
 
 let misPalabras = ["hola", "adios", "crack", "Pc", "continue", "Gato", "coche", "Pez", "basta", "Lapiz"]
 
@@ -112,49 +112,38 @@ Comprueba con un switch si la frase que has creado tiene el prefijo “En la vid
 
 // Podia a ver hecho menos casos agrupando prefijos y sufijos pero creo que asi queda mas claro
 
+var tupla = (false, false, false, false)
+tupla.0 = miString.hasPrefix("En la vida")
+tupla.1 = miString.hasPrefix("Todo el mundo")
+tupla.2 = miString.hasSuffix("para siempre")
+tupla.3 = miString.hasSuffix("nunca")
 
-switch 1 {
+switch tupla {
     
     
-    case 1:
-        
-        if (miString.hasPrefix("En la vida")) {
+    case (true, false, false, false):
+
+        println("El prefijo es = En la vida")
+ 
+    case (false, true, false, false):
             
-            println("El prefijo es = En la vida")
-        }
+        println("El prefijo es = Todo el mundo")
     
-        fallthrough
+    case (false, false, true, false):
     
-    case 2:
+        println("El sufijo es = para siempre")
     
-        if (miString.hasPrefix("Todo el mundo")) {
-            
-            println("El prefijo es = Todo el mundo")
-        }
-        
-        fallthrough
+    case (false, false, false, true):
     
-    case 3:
-    
-        if (miString.hasSuffix("para siempre")) {
-            
-            println("El sufijo es = para siempre")
-        }
-    
-        fallthrough
-    
-    case 4:
-    
-        if (miString.hasSuffix("nunca")) {
-            
-            println("El sufijo es = nunca")
-        }
+        println("El sufijo es = nunca")
     
     default:
     
         println("no pertenece")
     
 }
+
+miString
 
 /*
 
@@ -178,4 +167,3 @@ for palabra in misPalabras {
     
     println(palabra)
 }
-
