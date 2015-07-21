@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Tarea2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2g0-PN-Yk5">
+                                <rect key="frame" x="260" y="28" width="81" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="81" id="in9-Qx-crz"/>
+                                </constraints>
+                                <state key="normal" title="passView2">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="passView2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Coc-6F-qlm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1528166141" green="0.1659936182" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="2g0-PN-Yk5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kYz-G5-RCO"/>
+                            <constraint firstItem="2g0-PN-Yk5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="x2O-Ec-wgW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="k66-6b-ZpQ" kind="show" identifier="goView2" id="gxI-mc-u4J"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-346" y="344"/>
+        </scene>
+        <!--View Controller3-->
+        <scene sceneID="dV8-wo-MG7">
+            <objects>
+                <viewController id="m8o-39-eOq" customClass="ViewController3" customModule="Tarea2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cWB-rK-Ibk"/>
+                        <viewControllerLayoutGuide type="bottom" id="Nnp-Iq-sim"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="93H-gi-tjb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sbm-gY-2s2">
+                                <rect key="frame" x="263" y="28" width="74" height="30"/>
+                                <state key="normal" title="passView1">
+                                    <color key="titleColor" red="1" green="0.048214773750000002" blue="0.079161730560000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="passView1:" destination="m8o-39-eOq" eventType="touchUpInside" id="fAc-tU-v8D"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.28549840389999998" green="1" blue="0.18646815310000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Sbm-gY-2s2" firstAttribute="top" secondItem="cWB-rK-Ibk" secondAttribute="bottom" constant="8" id="XtP-ro-lz4"/>
+                            <constraint firstAttribute="centerX" secondItem="Sbm-gY-2s2" secondAttribute="centerX" id="yvS-RO-zxe"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="goView1" id="sX6-s8-3gR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iZH-dK-hdn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1012" y="344"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="f3J-ey-QAv">
+            <objects>
+                <viewController id="k66-6b-ZpQ" customClass="ViewController2" customModule="Tarea2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="d2X-1o-OZR"/>
+                        <viewControllerLayoutGuide type="bottom" id="ebt-VL-Ona"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iuc-S5-iMb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C4D-sW-NkP">
+                                <rect key="frame" x="263" y="28" width="74" height="30"/>
+                                <state key="normal" title="passView3">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="passView3:" destination="k66-6b-ZpQ" eventType="touchUpInside" id="ubf-T4-cB1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.048214773750000002" blue="0.079161730560000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="C4D-sW-NkP" secondAttribute="centerX" id="gDO-H4-xc5"/>
+                            <constraint firstItem="C4D-sW-NkP" firstAttribute="top" secondItem="d2X-1o-OZR" secondAttribute="bottom" constant="8" id="xQG-kj-tlz"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="m8o-39-eOq" kind="show" identifier="goView3" id="sHg-5v-pu0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="df0-do-wF3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="337" y="344"/>
+        </scene>
+    </scenes>
+</document>
